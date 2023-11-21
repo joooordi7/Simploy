@@ -1,5 +1,5 @@
 # Simploy
- Projekt für das Fach interaktive Medien 1 FHGR
+ Projekt für das Fach interaktive Medien 1 
 
 ## Dokumentation
-### Id
+### Idee
