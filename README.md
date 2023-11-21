@@ -1,7 +1,6 @@
 # Simploy
 <<<<<<< HEAD
  Projekt für das Fach interaktive Medien 1 FHGR
-# Gay
 =======
  Projekt für das Fach interaktive Medien 1 
 
