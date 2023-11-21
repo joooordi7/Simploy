@@ -1,2 +1,5 @@
 # Simploy
- Projekt IM1
+ Projekt für das Fach interaktive Medien 1 
+
+## Dokumentation
+### Idee
