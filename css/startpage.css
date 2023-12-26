@@ -1,0 +1,136 @@
+        
+        html,
+        body, .wrapper { 
+          height: 100%;
+          width: 100%;
+        }
+
+        .herogrid{
+          height: 100vh;
+          display: grid;  
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+          /*Scrolling Parallax*/
+          .wrapper {
+            height: 100%;
+            word-spacing: 2px;
+            letter-spacing: 0.5px;
+          }
+          
+          /*basic text*/
+          .text{
+            padding-left: 5%;
+            padding-right: 5%;
+            margin:auto;
+            max-width: 700px;
+            padding-bottom: 100px;
+          }
+          /*Nav Bilder*/
+          .imgnav{
+            padding-top: 70px;
+            display: grid;  
+            grid-template-columns: repeat(3, 1fr);
+          }
+          /*Text Nav Bilder*/
+          .picNavTxt{
+            font-size: 1.5em;
+            font-weight: 600;
+            color: white;
+            text-shadow: 0px 0px 21px rgba(0,0,0,0.75);
+          }
+          .activities {
+          /*darkens only the background image*/
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          aspect-ratio: 1/1;
+          width: 100%;
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/fotos/activities.webp');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center, center;
+          transition: background-image 0.5s, zoom 1.5s;
+        }
+        
+        .activities:hover {
+          zoom:110%;
+          filter: brightness(1.9);
+        }
+  
+        .infos {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          aspect-ratio: 1/1;
+          width: 100%;
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/fotos/infos.webp');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center, center;
+          transition: background-image 0.5s, zoom 1.5s;
+        }
+  
+        .infos:hover {
+          zoom:110%;
+          filter: brightness(1.7);
+        }
+        .events {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          aspect-ratio: 1/1;
+          width: 100%;
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/fotos/events.webp');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center, center;
+          transition: background-image 0.5s, zoom 1.5s;
+        }
+  
+        .events:hover {
+          zoom:110%;
+          filter: brightness(1.7);
+        }
+        .bgtext{
+          position: relative;
+          color:white;
+          top: 50%;  
+          transform: translate(0%, -50%); 
+          text-align: center;
+        }
+
+        /*Fun Facts*/
+            .container {
+          display: grid;
+          grid-template-columns: auto 1fr auto;
+          align-items: center;
+        }
+        .funFactsButton{
+          margin: -100px 50px 0 50px !important;
+        }
+        @media (max-width: 768px) {
+        .imgnav{
+        grid-template-columns: 1fr; 
+        grid-template-rows: repeat(3, 1fr);
+        }
+        .activities{
+          aspect-ratio: 3/1;
+        }
+        .infos{
+          aspect-ratio: 3/1;
+        }
+        .events{
+          aspect-ratio: 3/1;
+          /*centers the background gradient, the image -150px*/
+          background-position: center, center -150px;
+        }
+
+        .funFactsButton{
+          display: none !important;
+        }
+      }
+          
+  
+         
+          /*END of Scrolling Parallax*/

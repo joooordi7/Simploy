@@ -1,3 +1,354 @@
-body{
-    
+@import url("https://use.typekit.net/gzs3atl.css");
+/* Small Reset */
+*::before, *::after, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+body{
+  margin: 0 20px;
+  background-color: var(--MainBlack);
+  color: var(--MainWhite);
+  overflow-x: hidden !important;
+  font-family: "din-2014", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24;
+}
+
+h1{
+  padding-top: 100px;
+  font-family: "dazzle-unicase"!important;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+}
+
+h2{
+  font-family: "dazzle-unicase", sans-serif;
+  font-weight: 700 !important;
+  font-style: normal;
+  font-size: 36px;
+}
+
+
+h3{
+  font-family: "dazzle-unicase", sans-serif;
+  font-weight: 500 !important;
+  font-style: normal;
+  font-size: 28px;
+}
+
+.subtitle{
+  font-family: "din-2014", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.green{
+  color: var(--MainGreen);
+}
+
+.greenbg{
+  background-color: var(--MainGreen);
+}
+
+.yellow{
+  color: var(--MainYellow);
+}  
+.yellowbg{
+  background-color: var(--MainYellow);
+}  
+
+.orange{
+  color: var(--MainOrange);
+}
+
+.orangebg{
+  background-color: var(--MainOrange);
+}
+
+.pink{
+  color: var(--MainPink);
+}
+
+.pinkbg{
+  background-color: var(--MainPink);
+}
+
+.blue{
+  color: var(--MainBlue);
+} 
+
+.bluebg{
+  background-color: var(--MainBlue);
+} 
+
+.white{
+  color: var(--MainWhite);
+}
+
+.textbubble{
+  padding: 3vw;
+  border-radius: 10px;
+  color: var(--MainBlack);
+}
+/*Link decoration reset*/
+a{
+    text-decoration: none;
+    color: var(--MainBrown);
+}
+
+p{
+  font-size: 16px;
+}
+
+img{
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .center{
+    width: 80%;       /* Define the width of the container */
+    margin: 0 auto;   /* Set the top and bottom margins to 0 and left and right margins to auto */
+}
+
+  .button {
+    background-image: url('../images/icons/button.webp');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 500px;
+    border: none;
+    min-width: 30px;
+    width: 10vw;
+    max-width: 55px;
+    min-height: 30px;
+    height: 10vw;
+    max-height: 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  /*Only for old browsers*/
+  .onlyForOldBrowsers {
+    padding-top: 65px;
+    display: block;
+  }
+
+  .hiddenCheckBox {
+    display: none;
+  }
+
+  .oldBrowsersText {
+    background-color: #f1c40f;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .oldBrowsersButton {
+    cursor: pointer;
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  #close:checked ~ .oldBrowsersText {
+    display: none;
+  }
+    /*Falls der Browser nicht fähig ist anzuzeigen, wirds nicht angezeigt*/
+        @supports (background-blend-mode: darken) {
+            /*do not show on modern browsers*/
+            .onlyForOldBrowsers {
+              display: none;
+            }
+          }
+
+/*NavBar*/
+ /*MainBar*/
+ .nav {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  align-items: center;
+  top: 0;
+  z-index: 1000; /* Change this value to a higher value */
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  width: 100vw;
+  background-color: var(--MainBlack);
+  color: var(--MainBrown);
+  padding-right: 1vw;
+  
+}
+
+.nav > span {
+font-size: 18px;
+flex-shrink: 1;
+margin: 15px;
+text-align: left;
+}
+
+.nav:last-child {
+text-align: left;
+width: 5rem;
+}
+
+
+.mobile{
+    display:none;
+    z-index: 2;
+}
+/*FOOTER*/
+footer {
+  position: relative;
+  bottom: 0;
+  padding: 5px 10vw 0 10vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: var(--MainGreenSolid);
+  color: var(--MainBrown);
+  height: 140px;
+  box-shadow: var(--ShadowTop);
+}
+
+
+footer a {
+color: var(--MainBrown);
+font-size: 16px;
+}
+
+.footertitle {
+  padding-bottom: 10px !important;
+}
+
+.footerColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerColumn:nth-child(2) {
+  justify-self: center;
+}
+
+.footerColumn:nth-child(3) {
+  justify-self: end;
+}
+
+.footerImage {
+  gap: 0.5em;
+}
+
+.footerImage img {
+  max-width: 40px;
+  max-height: 40px;
+  aspect-ratio: 1/1;
+}
+
+.copyRight{
+position: absolute;
+display: inline-block;
+left: 50%;
+transform: translateX(-50%);
+bottom: 1px;
+font-size: 10px;
+}
+/*Mobile View*/
+@media (max-width: 768px) {
+    .desktop{
+        display:none;
+    }
+
+    .mobile{
+      display:block;
+    }
+    .box{
+        width: 70%;
+      }
+      .popup{
+        width: 70%;
+      }
+    
+    /*Mobile Menu*/
+    .burger{
+        cursor: pointer;
+        margin-right: -5px;
+        margin-left: auto;
+        text-align: right;
+    }
+  
+/*SideNavBarMobile*/
+    #navmobile{
+    position:fixed;
+    z-index: 988;
+    display: grid;
+    grid-template-rows: 3fr 0.5fr 0.5fr 0.5fr 3fr 1fr 1fr 1fr;
+    height: 100vh;
+    color: var(--MainBrown);
+    /*SideShadow to avoid ugly top or bottom shadow, if browser compatible*/
+    background-color: var(--MainGreenSolid);
+    background: linear-gradient(90deg, rgba(117,142,85,1) 0%, rgba(160,195,116,1) 2%, rgba(160,195,116,1) 100%);
+    top: 40px;
+    padding: 20px;
+    right: 0px;
+    transition: all 0.5s;
+    }
+    
+    .mobileLogo{
+      align-self: center;
+      display: flex;
+      margin-top: 25px !important;
+      margin-bottom: 20px;
+      justify-content: center; 
+      align-items: center; 
+      padding: 20px; 
+      height: 160px;
+      aspect-ratio: 1/1;
+      border-radius: 100px;
+      background-color: var(--MainBrown);
+      margin:auto;
+      filter: drop-shadow(2px 2px 2px  rgba(0, 0, 0, 0.75));
+    }
+      .mobileLogo img{
+      width: 100%;
+      border-radius: none;
+    }
+    .hidden{
+    transform: translateX(100%);
+    }
+    .nav-item{
+    z-index: 988;
+    padding-top: 10px;
+    }
+    .navBottom {
+      font-size: 12px;
+      padding-top: 0px;
+  }
+  /*Mobile Footer*/
+  .footerColumn{
+    display: none;
+  }
+
+    /*Mobile Footer*/
+    .footerColumn{
+      display: none;
+    }
+  
+    footer {
+      height: 30px;
+  }
+
+    /*end of SideNavBarMobile*/
+    /*imgnav from the Frontpage index.html*/
+} 
