@@ -7,7 +7,6 @@
 }
 
 body{
-  margin: 0 20px;
   background-color: var(--MainBlack);
   color: var(--MainWhite);
   overflow-x: hidden !important;
@@ -26,6 +25,7 @@ h1{
 }
 
 h2{
+  padding: 70px;
   font-family: "dazzle-unicase", sans-serif;
   font-weight: 700 !important;
   font-style: normal;
@@ -111,6 +111,7 @@ img{
   }
 
   .center{
+    text-align: center;
     width: 80%;       /* Define the width of the container */
     margin: 0 auto;   /* Set the top and bottom margins to 0 and left and right margins to auto */
 }
@@ -184,13 +185,12 @@ img{
   align-items: center;
   top: 0;
   z-index: 1000; /* Change this value to a higher value */
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
   width: 100vw;
   background-color: var(--MainBlack);
   color: var(--MainBrown);
-  padding-right: 1vw;
-  
+  padding-right: 3vw;
+  padding-left: 5vw;
+  border-bottom: 5px solid var(--MainWhite);
 }
 
 .nav > span {
@@ -297,14 +297,14 @@ font-size: 10px;
     height: 100vh;
     color: var(--MainBrown);
     /*SideShadow to avoid ugly top or bottom shadow, if browser compatible*/
-    background-color: var(--MainGreenSolid);
+    background-color: var(--MainGreen);
     background: linear-gradient(90deg, rgba(117,142,85,1) 0%, rgba(160,195,116,1) 2%, rgba(160,195,116,1) 100%);
     top: 40px;
     padding: 20px;
     right: 0px;
     transition: all 0.5s;
     }
-    
+  
     .mobileLogo{
       align-self: center;
       display: flex;
