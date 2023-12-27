@@ -1,64 +1,39 @@
         
-        html,
-        body, .wrapper { 
-          height: 100%;
-          width: 100%;
-        }
+        
 
-        .herogrid{
-
-          margin-left: 1vw !important;
-          margin-right: 11vw !important;
+        .hero{
           height: 100vh;
+        }
+        .tworowgrid{
+          margin-left: 1vw !important;
           display: grid;  
           grid-template-columns: repeat(2, 1fr);
         }
+       
+         /*Nav Bilder*/
+        .imgnav{
+         display: grid;  
+         grid-template-columns: repeat(3, 1fr);
+         grid-gap: 2vw;
+                }
 
-          /*Nav Bilder*/
-          .imgnav{
-            padding-top: 70px;
-            display: grid;  
-            grid-template-columns: repeat(3, 1fr);
-          }
-
-        .events {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          aspect-ratio: 1/1;
-          width: 100%;
-          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/fotos/events.webp');
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: center, center;
-          transition: background-image 0.5s, zoom 1.5s;
-        }
-  
-        .events:hover {
-          zoom:110%;
-          filter: brightness(1.7);
-        }
         .bgtext{
+          gap: 8px;
           position: relative;
           color:white;
           top: 50%;  
-          transform: translate(0%, -50%); 
+          /*transform: translate(0%, -50%); */
           text-align: center;
         }
 
-        /*Fun Facts*/
-            .container {
-          display: grid;
-          grid-template-columns: auto 1fr auto;
-          align-items: center;
-        }
-        .funFactsButton{
-          margin: -100px 50px 0 50px !important;
-        }
+       
         @media (max-width: 768px) {
         .imgnav{
         grid-template-columns: 1fr; 
         grid-template-rows: repeat(3, 1fr);
+        }
+        .video{
+          margin-top: -30%
         }
         .activities{
           aspect-ratio: 3/1;

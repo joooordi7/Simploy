@@ -7,6 +7,7 @@
 }
 
 body{
+  margin: 0 20px !important;
   background-color: var(--MainBlack);
   color: var(--MainWhite);
   overflow-x: hidden !important;
@@ -25,7 +26,8 @@ h1{
 }
 
 h2{
-  padding: 70px;
+  text-align: center;
+  padding: 40px;
   font-family: "dazzle-unicase", sans-serif;
   font-weight: 700 !important;
   font-style: normal;
@@ -37,7 +39,7 @@ h3{
   font-family: "dazzle-unicase", sans-serif;
   font-weight: 500 !important;
   font-style: normal;
-  font-size: 28px;
+  font-size: 18px;
 }
 
 .subtitle{
@@ -45,6 +47,13 @@ h3{
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
+}
+
+p{
+  font-family: "din-2014", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
 }
 
 .green{
@@ -111,7 +120,6 @@ img{
   }
 
   .center{
-    text-align: center;
     width: 80%;       /* Define the width of the container */
     margin: 0 auto;   /* Set the top and bottom margins to 0 and left and right margins to auto */
 }
@@ -136,6 +144,14 @@ img{
     margin: 4px 2px;
     cursor: pointer;
   }
+
+  .tworowgrid{
+    margin-left: 1vw !important;
+    display: grid;  
+    grid-gap: 2vw;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   /*Only for old browsers*/
   .onlyForOldBrowsers {
     padding-top: 65px;
@@ -179,17 +195,20 @@ img{
 /*NavBar*/
  /*MainBar*/
  .nav {
+  margin-left: -20px;
+  padding-left: 20px;
   display: flex;
   position: fixed;
   flex-direction: row;
   align-items: center;
   top: 0;
   z-index: 1000; /* Change this value to a higher value */
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   width: 100vw;
   background-color: var(--MainBlack);
   color: var(--MainBrown);
-  padding-right: 3vw;
-  padding-left: 5vw;
+  padding-right: 1vw;
   border-bottom: 5px solid var(--MainWhite);
 }
 
@@ -297,14 +316,14 @@ font-size: 10px;
     height: 100vh;
     color: var(--MainBrown);
     /*SideShadow to avoid ugly top or bottom shadow, if browser compatible*/
-    background-color: var(--MainGreen);
+    background-color: var(--MainGreenSolid);
     background: linear-gradient(90deg, rgba(117,142,85,1) 0%, rgba(160,195,116,1) 2%, rgba(160,195,116,1) 100%);
     top: 40px;
     padding: 20px;
     right: 0px;
     transition: all 0.5s;
     }
-  
+    
     .mobileLogo{
       align-self: center;
       display: flex;
