@@ -4,14 +4,11 @@
         .hero{
           height: 100vh;
         }
-        .tworowgrid{
-          margin-left: 1vw !important;
-          display: grid;  
-          grid-template-columns: repeat(2, 1fr);
-        }
+
        
          /*Nav Bilder*/
         .imgnav{
+          margin-top: 70px;
          display: grid;  
          grid-template-columns: repeat(3, 1fr);
          grid-gap: 2vw;

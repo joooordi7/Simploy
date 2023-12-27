@@ -1,6 +1,6 @@
 # Simploy
 <<<<<<< HEAD
- Projekt für das Fach interaktive Medien 1 FHGR
+https://765203-2.web.fhgr.ch/
 =======
  Projekt für das Fach interaktive Medien 1 
 

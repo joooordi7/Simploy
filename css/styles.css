@@ -116,7 +116,7 @@ p{
 
 img{
     max-width: 100%;
-    height: 100%;
+    max-height: 100%;
   }
 
   .center{
@@ -231,15 +231,15 @@ width: 5rem;
 }
 /*FOOTER*/
 footer {
+  margin: 70px -20px 0px -20px;
+  border-top: 5px solid var(--MainWhite);
   position: relative;
   bottom: 0;
   padding: 5px 10vw 0 10vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: var(--MainGreenSolid);
-  color: var(--MainBrown);
   height: 140px;
-  box-shadow: var(--ShadowTop);
+
 }
 
 
@@ -255,6 +255,8 @@ font-size: 16px;
 .footerColumn {
   display: flex;
   flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .footerColumn:nth-child(2) {
@@ -280,7 +282,7 @@ position: absolute;
 display: inline-block;
 left: 50%;
 transform: translateX(-50%);
-bottom: 1px;
+bottom: -20px;
 font-size: 10px;
 }
 /*Mobile View*/
