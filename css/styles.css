@@ -10,7 +10,6 @@ body{
   margin: 0 20px !important;
   background-color: var(--MainBlack);
   color: var(--MainWhite);
-  overflow-x: hidden !important;
   font-family: "din-2014", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -33,7 +32,6 @@ h2{
   font-style: normal;
   font-size: 36px;
 }
-
 
 h3{
   font-family: "dazzle-unicase", sans-serif;
@@ -99,6 +97,18 @@ p{
   color: var(--MainWhite);
 }
 
+.text-right{
+  text-align: right;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-center{
+  text-align: center;
+}
+
 .textbubble{
   padding: 3vw;
   border-radius: 10px;
@@ -145,13 +155,46 @@ img{
     cursor: pointer;
   }
 
-  .tworowgrid{
-    margin-left: 1vw !important;
+  .two-row-grid{
+    margin-left: 1vw;
     display: grid;  
     grid-gap: 2vw;
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .two-row-grid-1-3{
+    margin-left: 1vw;
+    display: grid;  
+    grid-gap: 2vw;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  .two-row-grid-3-1{
+    margin-left: 1vw;
+    display: grid;  
+    grid-gap: 2vw;
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .three-row-grid{
+    margin-top: 70px;
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2vw;
+   }
+   .three-row-grid-1-3-1{
+     margin-top: 70px;
+     display: grid;  
+     grid-template-columns: 1fr 3fr 1fr;
+     grid-gap: 2vw;
+     } 
+
+  .four-row-grid{
+    margin-left: 1vw;
+    grid-gap: 2vw;
+    display: grid;  
+    grid-template-columns: repeat(4, 1fr);
+  }
   /*Only for old browsers*/
   .onlyForOldBrowsers {
     padding-top: 65px;
@@ -287,6 +330,17 @@ font-size: 10px;
 }
 /*Mobile View*/
 @media (max-width: 768px) {
+  
+  .three-row-grid{
+    grid-template-columns: 1fr; 
+    grid-template-rows: repeat(3, 1fr);
+    }
+
+  .four-row-grid{
+        grid-template-columns: 1fr; 
+        grid-template-rows: repeat(4, 1fr);
+    }
+
     .desktop{
         display:none;
     }

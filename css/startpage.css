@@ -2,9 +2,13 @@
         
 
         .hero{
+          margin: 0 5vw !important;
           height: 100vh;
         }
-
+        .heroimg{
+          padding-top: 100px;
+          margin-bottom: -100px;
+        }
        
          /*Nav Bilder*/
         .imgnav{
@@ -22,7 +26,10 @@
           /*transform: translate(0%, -50%); */
           text-align: center;
         }
-
+        .review-img{
+          aspect-ratio: 1/1;
+          max-width: 50%;
+        }
        
         @media (max-width: 768px) {
         .imgnav{
