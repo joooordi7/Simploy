@@ -1,0 +1,11 @@
+.textrounded{
+  margin: auto;
+  width: 10vw; /* adjust as needed */
+  height: 10vw; /* adjust as needed */
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  color: var(--MainBlack);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

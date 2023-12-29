@@ -36,9 +36,13 @@
         grid-template-columns: 1fr; 
         grid-template-rows: repeat(3, 1fr);
         }
-        .video{
-          margin-top: -30%
+
+        .mobile-innovativ{
+          width: 20% !important;
         }
+
+
+
         .activities{
           aspect-ratio: 3/1;
         }
