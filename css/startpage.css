@@ -1,65 +1,82 @@
-        
-        
+.hero {
+  margin: 0 5vw !important;
+  min-height: 550px !important;
+  height: 100vh;
+}
 
-        .hero{
-          margin: 0 5vw !important;
-          height: 100vh;
-        }
-        .heroimg{
-          padding-top: 100px;
-          margin-bottom: -100px;
-        }
-       
-         /*Nav Bilder*/
-        .imgnav{
-          margin-top: 70px;
-         display: grid;  
-         grid-template-columns: repeat(3, 1fr);
-         grid-gap: 2vw;
-                }
+.heroimg {
+  padding-top: 120px;
+  margin-bottom: 100px;
+  min-height: 500px;
+  max-height: calc(100vh - 100px);
+  max-width: 100%;
 
-        .bgtext{
-          gap: 8px;
-          position: relative;
-          color:white;
-          top: 50%;  
-          /*transform: translate(0%, -50%); */
-          text-align: center;
-        }
-        .review-img{
-          aspect-ratio: 1/1;
-          max-width: 50%;
-        }
-       
-        @media (max-width: 768px) {
-        .imgnav{
-        grid-template-columns: 1fr; 
-        grid-template-rows: repeat(3, 1fr);
-        }
+}
 
-        .mobile-innovativ{
-          width: 20% !important;
-        }
+/*Nav Bilder*/
+.imgnav {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vw;
+}
 
 
+.review-img {
+  height: auto;
+  max-width: 5px !important;
+}
 
-        .activities{
-          aspect-ratio: 3/1;
-        }
-        .infos{
-          aspect-ratio: 3/1;
-        }
-        .events{
-          aspect-ratio: 3/1;
-          /*centers the background gradient, the image -150px*/
-          background-position: center, center -150px;
-        }
+@media (max-width: 768px) {
 
-        .funFactsButton{
-          display: none !important;
-        }
-      }
-          
-  
-         
-          /*END of Scrolling Parallax*/
+   .hero{
+    min-height: 400px !important;
+   }
+  .heroimg{
+    padding-top: 40px;
+    min-height: 200px;
+    max-height: 60vh;
+    
+    }
+
+  .mobile-innovativ {
+    width: 20% !important;
+  }
+
+
+
+  .activities {
+    aspect-ratio: 3/1;
+  }
+
+  .infos {
+    aspect-ratio: 3/1;
+  }
+
+  .events {
+    aspect-ratio: 3/1;
+    /*centers the background gradient, the image -150px*/
+    background-position: center, center -150px;
+  }
+
+  .funFactsButton {
+    display: none !important;
+  }
+}
+
+@media (max-device-height: 768px) and (orientation: landscape) {
+
+  .hero{
+    min-height: 400px !important;
+  }
+  .heroimg{
+    padding-top: 120px;
+    margin-bottom: 100px;
+    min-height: 300px !important;
+    max-height: 90vh;
+    max-width: 100%;
+    
+  }
+}
+
+/*END of Scrolling Parallax*/
