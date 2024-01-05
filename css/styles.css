@@ -168,6 +168,11 @@ p {
   max-height: 15vw;
 }
 
+.img-sizing-icon{
+  width: auto;
+  max-height: 10vw;
+}
+
 .img-sizing-xsmall{
   width: auto;
   max-height: 5vw;
@@ -212,6 +217,11 @@ video {
 .margin-reset {
   margin-top: 5px !important;
   padding-top: 10px;
+}
+
+.margin-reset-top {
+  margin-top: 0px !important;
+  padding-top: 0px;
 }
 
 .two-row-grid {
