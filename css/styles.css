@@ -16,7 +16,7 @@ body {
   font-family: "din-2014", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 24;
+  font-size: 24px;
 }
 
 h1 {
@@ -127,6 +127,11 @@ p {
   float: right;
 }
 
+.left {
+  margin-right: auto;
+  float: right;
+}
+
 .center {
   width: 80%;
   margin: 0 auto;
@@ -149,6 +154,10 @@ p {
   font-size: 16px;
 }
 
+.img-sizing-large{
+  width: auto;
+  max-height: 40vw;
+}
 .img-sizing {
   width: auto;
   max-height: 20vw;
@@ -159,22 +168,28 @@ p {
   max-height: 15vw;
 }
 
+.img-sizing-xsmall{
+  width: auto;
+  max-height: 5vw;
+}
+
 .img-review {
   min-height: 150px;
 }
 
+.bottom-padding {
+  padding-bottom: 70px;
+}
+
 
 .button {
-  background-image: url('../images/icons/button.webp');
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 500px;
+  border-radius: 10px;
   border: none;
+  padding: 5%;
   min-width: 30px;
-  width: 10vw;
-  max-width: 55px;
-  min-height: 30px;
   height: 10vw;
   max-height: 55px;
   text-align: center;
@@ -183,6 +198,20 @@ p {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+video {
+  background-color: var(--MainOrange);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.margin-reset {
+  margin-top: 5px !important;
+  padding-top: 10px;
 }
 
 .two-row-grid {
@@ -199,6 +228,22 @@ p {
   display: grid;
   grid-gap: 2vw;
   grid-template-columns: 1fr 3fr;
+}
+
+.two-row-grid-1-2 {
+  margin-top: 70px;
+  margin-left: 1vw;
+  display: grid;
+  grid-gap: 2vw;
+  grid-template-columns: 1fr 2fr;
+}
+
+.two-row-grid-2-1 {
+  margin-top: 70px;
+  margin-left: 1vw;
+  display: grid;
+  grid-gap: 2vw;
+  grid-template-columns: 1fr 2fr;
 }
 
 .two-row-grid-3-1 {
@@ -411,7 +456,11 @@ footer a {
     display: none;
   }
 
-  .no-mobile-margin{
+  .mobile-margin {
+    margin-top: 40px;
+  }
+
+  .no-mobile-margin {
     margin: 0px !important;
   }
 
@@ -426,6 +475,7 @@ footer a {
   .four-row-grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
+    grid-gap: 5vh;
   }
 
   .mobile-1-row-grid {
@@ -434,6 +484,11 @@ footer a {
     grid-template-rows: auto;
     grid-template-columns: 1fr;
     margin-top: 5vh;
+    grid-gap: 5vh;
+  }
+
+  .bottom-padding {
+    padding-bottom: 40px;
   }
 
   .mobile-1-row-reverse-grid {
@@ -484,10 +539,10 @@ footer a {
     display: grid;
     grid-template-rows: 3fr 0.5fr 0.5fr 0.5fr 3fr 1fr 1fr 1fr;
     height: 100vh;
-    color: var(--MainBrown);
+    color: white;
     /*SideShadow to avoid ugly top or bottom shadow, if browser compatible*/
-    background-color: var(--MainGreenSolid);
-    background: linear-gradient(90deg, rgba(117, 142, 85, 1) 0%, rgba(160, 195, 116, 1) 2%, rgba(160, 195, 116, 1) 100%);
+    background-color: var(--MainOrange);
+    background: linear-gradient(90deg, rgba(143, 58, 31, 1) 0%, rgba(222, 93, 53, 1) 2%);
     top: 40px;
     padding: 20px;
     right: 0px;
