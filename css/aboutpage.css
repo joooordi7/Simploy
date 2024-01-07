@@ -10,8 +10,20 @@
   justify-content: center;
 }
 
+.logo-background{
+  margin: auto;
+  width: 10vw; /* adjust as needed */
+  height: 10vw; /* adjust as needed */
+  aspect-ratio: 1/1;
+  border-radius: 20px;
+  color: var(--MainBlack);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .team-photos-cristina{
-  background: url(../images/pictures/Cristina_Simploy.webp);
+  background: url('../images/pictures/Cristina_Simploy.webp');
   border-radius: 10px;
   background-repeat: no-repeat;
   background-size:  cover;
