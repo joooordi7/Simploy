@@ -20,3 +20,5 @@ Some elements navbar and footer have been reused from old projects that Thomas B
 
 Some other smaller elements and some code fragments like e.g. the outdated browser checker has been resued from old pojects of Thomas Buser. They contain code fragments that have been made with aid chatgbt, stackoverflow.com, w3schools.com, codepen.com aswell as other websites.
 
+Gradient has been made with a gradient generator (https://cssgradient.io/)
+
