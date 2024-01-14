@@ -23,7 +23,7 @@
 }
 
 .team-photos-cristina{
-  background: url('../images/pictures/Cristina_Simploy.webp');
+  background: url('../images/pictures/Cristina_Simploy-transformed.webp');
   border-radius: 10px;
   background-repeat: no-repeat;
   background-size:  cover;
@@ -31,7 +31,7 @@
 }
 
 .team-photos-thomas{
-  background: url(../images/pictures/Thomas_Simploy.webp);
+  background: url(../images/pictures/Thomas_Simploy-transformed.webp);
   border-radius: 10px;
   background-repeat: no-repeat;
   background-size:  cover;
@@ -39,7 +39,7 @@
 }
 
 .team-photos-lucas{
-  background: url(../images/pictures/Lukas_Simploy.webp);
+  background: url(../images/pictures/Lukas_Simploy-transformed.webp);
   border-radius: 10px;
   background-repeat: no-repeat;
   background-size:  cover;
@@ -55,7 +55,7 @@
 }
 
 .team-photos-selina{
-  background: url(../images/pictures/Selina_Simploy.webp);
+  background: url(../images/pictures/Selina_Simploy-transformed.webp);
   border-radius: 10px;
   background-repeat: no-repeat;
   background-size:  cover;
