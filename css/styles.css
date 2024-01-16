@@ -113,6 +113,10 @@ p {
   color: var(--MainWhite);
 }
 
+.whitebg {
+  background-color: var(--MainWhite);
+}
+
 .text-right {
   text-align: right;
 }
@@ -161,6 +165,11 @@ p {
   width: auto;
   max-height: 40vw;
 }
+
+.img-sizing-logo{
+  width: auto;
+  max-height: 30vw;
+}
 .img-sizing {
   width: auto;
   max-height: 20vw;
@@ -198,7 +207,6 @@ p {
   border: none;
   padding: 5%;
   min-width: 30px;
-  max-height: 55px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -226,6 +234,10 @@ video {
   padding-top: 0px;
 }
 
+.margin-top-2vw{
+  margin-top: 2vw !important;
+}
+
 .two-row-grid {
   margin-left: 1vw;
   display: grid;
@@ -235,7 +247,6 @@ video {
 }
 
 .two-row-grid-1-3 {
-  margin-top: 70px;
   margin-left: 1vw;
   display: grid;
   grid-gap: 2vw;
@@ -243,7 +254,6 @@ video {
 }
 
 .two-row-grid-1-2 {
-  margin-top: 70px;
   margin-left: 1vw;
   display: grid;
   grid-gap: 2vw;
@@ -251,7 +261,6 @@ video {
 }
 
 .two-row-grid-2-1 {
-  margin-top: 70px;
   margin-left: 1vw;
   display: grid;
   grid-gap: 2vw;
@@ -259,7 +268,6 @@ video {
 }
 
 .two-row-grid-3-1 {
-  margin-top: 70px;
   margin-left: 1vw;
   display: grid;
   grid-gap: 2vw;
@@ -267,7 +275,6 @@ video {
 }
 
 .three-row-grid {
-  margin-top: 70px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: start;
@@ -275,7 +282,6 @@ video {
 }
 
 .three-row-grid-no-mobile {
-  margin-top: 70px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, minmax(100px, 1fr));
@@ -283,7 +289,6 @@ video {
 }
 
 .three-row-grid-1-3-1 {
-  margin-top: 70px;
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   grid-gap: 2vw;
@@ -397,7 +402,6 @@ footer {
 
 }
 
-
 footer a {
   color: var(--MainBrown);
   font-size: 16px;
@@ -482,6 +486,13 @@ footer a {
     margin: 0px !important;
   }
 
+  .no-mobile-margin-top{
+    margin-top: 0 !important;
+  }
+
+  .mobile-margin-top-minus{
+    margin-top: -5vw !important;
+  }
   /*Grids In Mobile View*/
   .three-row-grid {
     margin: 0px 0px 0px 0px;
@@ -503,6 +514,9 @@ footer a {
     grid-template-columns: repeat(3, 1fr);
   }
   
+  .margin-top-2vw{
+    margin-top: 7vw !important;
+  }
 
   .mobile-1-row-grid {
     display: grid;
@@ -548,6 +562,10 @@ footer a {
 
   .popup {
     width: 70%;
+  }
+  
+  .img-sizing-mobile{
+    max-height: 30vw;
   }
 
   /*Mobile Menu*/

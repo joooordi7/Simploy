@@ -5,8 +5,8 @@
 }
 
 .heroimg {
-  padding-top: 120px;
-  margin-bottom: 100px;
+  padding-top: 100px;
+  margin-bottom: 10px;
   min-height: 500px;
   max-height: calc(100vh - 100px);
   max-width: 100%;
@@ -21,6 +21,9 @@
   grid-gap: 2vw;
 }
 
+.img-sizing-24px{
+  width: 24px;
+}
 
 .review-img {
   height: auto;
@@ -35,7 +38,7 @@
   .heroimg{
     padding-top: 40px;
     min-height: 200px;
-    max-height: 60vh;
+    max-height: calc(60vh - 40px);
     
     }
 

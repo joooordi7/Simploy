@@ -1,7 +1,9 @@
-.textrounded{
+.textrounded {
   margin: auto;
-  width: 10vw; /* adjust as needed */
-  height: 10vw; /* adjust as needed */
+  width: 10vw;
+  /* adjust as needed */
+  height: 10vw;
+  /* adjust as needed */
   aspect-ratio: 1/1;
   border-radius: 50%;
   color: var(--MainBlack);
@@ -10,10 +12,16 @@
   justify-content: center;
 }
 
-.logo-background{
+.img-sizing-30{
+  width: 30%;
+}
+
+.logo-background {
   margin: auto;
-  width: 10vw; /* adjust as needed */
-  height: 10vw; /* adjust as needed */
+  width: 10vw;
+  /* adjust as needed */
+  height: 10vw;
+  /* adjust as needed */
   aspect-ratio: 1/1;
   border-radius: 20px;
   color: var(--MainBlack);
@@ -22,42 +30,49 @@
   justify-content: center;
 }
 
-.team-photos-cristina{
+.team-photos-cristina {
   background: url('../images/pictures/Cristina_Simploy.webp');
   border-radius: 10px;
   background-repeat: no-repeat;
-  background-size:  cover;
+  background-size: cover;
   background-position: top center;
 }
 
-.team-photos-thomas{
+.team-photos-thomas {
   background: url(../images/pictures/Thomas_Simploy.webp);
   border-radius: 10px;
   background-repeat: no-repeat;
-  background-size:  cover;
+  background-size: cover;
   background-position: top center;
 }
 
-.team-photos-lucas{
+.team-photos-lucas {
   background: url(../images/pictures/Lukas_Simploy.webp);
   border-radius: 10px;
   background-repeat: no-repeat;
-  background-size:  cover;
+  background-size: cover;
   background-position: top center;
 }
 
-.team-photos-julian{
+.team-photos-julian {
   background: url(../images/pictures/Julian_Simploy.webp);
   border-radius: 10px;
   background-repeat: no-repeat;
-  background-size:  cover;
+  background-size: cover;
   background-position: top center;
 }
 
-.team-photos-selina{
+.team-photos-selina {
   background: url(../images/pictures/Selina_Simploy.webp);
   border-radius: 10px;
   background-repeat: no-repeat;
-  background-size:  cover;
+  background-size: cover;
   background-position: top center;
+}
+
+@media (max-width: 768px) {
+  .textrounded{
+    padding: 13vw;
+  }
+
 }
