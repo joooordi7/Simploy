@@ -27,7 +27,7 @@ Gradient has been made with a gradient generator (https://cssgradient.io/)
 Some codefragments have been created or modified with AI. Mainly ChatGPT(http://https://chat.openai.com/) and Github Copilot (https://github.com/features/copilot) were used as AI models.
 
 
-### IMAGES
+### IMAGE Sources:
 Homepage:
 Ärztin:
 https://www.freepik.com/free-ai-image/portrait-female-working-nurse_69870819.htm
