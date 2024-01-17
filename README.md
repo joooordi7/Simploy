@@ -17,9 +17,9 @@ https://765203-2.web.fhgr.ch/
 ## SOURCES(QUELLEN)
 
 ### GENERAL
-Some elements navbar and footer have been reused from old projects that Thomas Buser did in his free time. In those old projects chatgbt, stackoverflow.com, w3schools.com, codepen.com aswell as other websites have been used as aid to create that code.
+Some elements navbar and footer have been reused from old projects that Thomas Buser did in his free time. In those old projects ChatGPT, stackoverflow.com, w3schools.com, codepen.com aswell as other websites have been used as aid to create that code.
 
-Some other smaller elements and some code fragments like e.g. the outdated browser checker has been resued from old pojects of Thomas Buser. They contain code fragments that have been made with aid chatgbt, stackoverflow.com, w3schools.com, codepen.com aswell as other websites.
+Some other smaller elements and some code fragments like e.g. the outdated browser checker has been resued from old pojects of Thomas Buser. They contain code fragments that have been made with aid ChatGPT, stackoverflow.com, w3schools.com, codepen.com aswell as other websites.
 
 Gradient has been made with a gradient generator (https://cssgradient.io/)
 
