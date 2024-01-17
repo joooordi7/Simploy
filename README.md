@@ -15,18 +15,18 @@ https://765203-2.web.fhgr.ch/
 
 
 ## SOURCES(QUELLEN)
-- GENERAL
+### GENERAL
 Some elements navbar and footer have been reused from old projects that Thomas Buser did in his free time. In those old projects chatgbt, stackoverflow.com, w3schools.com, codepen.com aswell as other websites have been used as aid to create that code.
 
 Some other smaller elements and some code fragments like e.g. the outdated browser checker has been resued from old pojects of Thomas Buser. They contain code fragments that have been made with aid chatgbt, stackoverflow.com, w3schools.com, codepen.com aswell as other websites.
 
 Gradient has been made with a gradient generator (https://cssgradient.io/)
 
-- USE OF AI:
+### USE OF AI:
 Some codefragments have been created or modified with AI. Mainly ChatGPT(http://https://chat.openai.com/) and Github Copilot (https://github.com/features/copilot) were used as AI models.
 
 
-- IMAGES
+### IMAGES
 Homepage:
 Ärztin:
 https://www.freepik.com/free-ai-image/portrait-female-working-nurse_69870819.htm
