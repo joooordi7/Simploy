@@ -15,6 +15,7 @@ https://765203-2.web.fhgr.ch/
 
 
 ## SOURCES(QUELLEN)
+
 ### GENERAL
 Some elements navbar and footer have been reused from old projects that Thomas Buser did in his free time. In those old projects chatgbt, stackoverflow.com, w3schools.com, codepen.com aswell as other websites have been used as aid to create that code.
 
