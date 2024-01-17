@@ -114,6 +114,7 @@ p {
 }
 
 .whitebg {
+  border-radius: 20px !important;
   background-color: var(--MainWhite);
 }
 
@@ -151,6 +152,12 @@ p {
   color: var(--MainBlack);
 }
 
+.textbubble-narrow {
+  border: 1vw solid var(--MainYellow);
+  border-radius: 10px;
+  color: var(--MainBlack);
+}
+
 /*Link decoration reset*/
 a {
   text-decoration: none;
@@ -166,10 +173,6 @@ p {
   max-height: 40vw;
 }
 
-.img-sizing-logo{
-  width: auto;
-  max-height: 30vw;
-}
 .img-sizing {
   width: auto;
   max-height: 20vw;
@@ -183,6 +186,11 @@ p {
 .img-sizing-icon{
   width: auto;
   max-height: 10vw;
+}
+.img-sizing-logo-small{
+  width: auto;
+  max-height: 7vw;
+
 }
 
 .img-sizing-xsmall{
@@ -566,6 +574,10 @@ footer a {
   
   .img-sizing-mobile{
     max-height: 30vw;
+  }
+
+  .img-sizing-logo-small{
+    max-height: 15vw;
   }
 
   /*Mobile Menu*/
