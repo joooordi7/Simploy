@@ -8,6 +8,11 @@ https://765203-2.web.fhgr.ch/
 
 - Login, Sign Up and "Privatsphäre" Links in Nav Bar and Footer are purposely disfunctional, since no login page etc. has been created (yet)
 
+- Footer on mobile view purposely reduced, Navigation of the footer elements moved the mobile Burgermenu Sidebar.
+
+- Semantic Tags were used (header, nav, main, section, article, footer). 
+ !Important! "Aside"-Tag was purposely left out (and "article" used minimally) as  no necesety, since section tag made structure clear enough and overuse of artcle and aside would have made the code less readable.
+
 - GRIDS: Most elements were made in  various different grid layouts like e.g. the hero section of the homepage(see styles.css)
 
 - FLEXBOXES: Some elements are made with flexboxes like e.g. the nav bar (see styles.css)
